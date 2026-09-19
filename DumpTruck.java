@@ -1,6 +1,3 @@
-/**
- * Subclass 1: Dump Truck (mewarisi KendaraanTambang).
- */
 public class DumpTruck extends KendaraanTambang {
  
     private double kapasitasTon;
