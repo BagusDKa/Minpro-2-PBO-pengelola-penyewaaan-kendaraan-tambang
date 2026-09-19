@@ -1,23 +1,15 @@
-/**
- * Superclass abstrak untuk semua kendaraan tambang.
- * Menerapkan encapsulation: field private, diakses lewat getter dan setter
- * yang sudah dilengkapi validasi.
- */
 public abstract class KendaraanTambang {
  
-    // private: hanya bisa diakses dari dalam class ini
     private String id;
     private String namaKendaraan;
     private double hargaSewaPerHari;
  
-    // public: bisa dipanggil dari class mana saja
     public KendaraanTambang(String id, String namaKendaraan, double hargaSewaPerHari) {
         setId(id);
         setNamaKendaraan(namaKendaraan);
         setHargaSewaPerHari(hargaSewaPerHari);
     }
  
-    // ===== Getter =====
     public String getId() {
         return id;
     }
@@ -30,7 +22,6 @@ public abstract class KendaraanTambang {
         return hargaSewaPerHari;
     }
  
-    // ===== Setter (dengan validasi) =====
     public void setId(String id) {
         if (id == null || id.trim().isEmpty()) {
             throw new IllegalArgumentException("ID tidak boleh kosong.");
@@ -52,10 +43,8 @@ public abstract class KendaraanTambang {
         this.hargaSewaPerHari = hargaSewaPerHari;
     }
  
-    // Method abstrak: wajib di-override oleh subclass
     public abstract String getJenis();
  
-    // protected: hanya bisa diakses oleh class ini, subclass, dan package yang sama
     protected abstract String getDetail();
  
     @Override
