@@ -9,7 +9,6 @@ public class PengelolaKendaraan {
         isiDataAwal(); // dummy data agar fitur read langsung menampilkan data
     }
  
-    // private: hanya dipakai di dalam class ini
     private void isiDataAwal() {
         daftarKendaraan.add(new DumpTruck("DT-001", "Komatsu HD785", 3500000, 91.0));
         daftarKendaraan.add(new DumpTruck("DT-002", "Caterpillar 777", 3200000, 100.0));
