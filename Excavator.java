@@ -1,9 +1,6 @@
-/**
- * Subclass 2: Excavator (mewarisi KendaraanTambang).
- */
 public class Excavator extends KendaraanTambang {
  
-    private double kapasitasBucket; // dalam m3
+    private double kapasitasBucket; 
  
     public Excavator(String id, String namaKendaraan, double hargaSewaPerHari, double kapasitasBucket) {
         super(id, namaKendaraan, hargaSewaPerHari);
