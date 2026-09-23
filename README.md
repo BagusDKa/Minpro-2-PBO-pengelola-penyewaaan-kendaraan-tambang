@@ -5,4 +5,4 @@ Inheritance KendaraanTambang menjadi superclass abstrak, dengan dua subclass
 DumpTruck tambahan atribut kapasitasTon
 Excavator tambahan atribut kapasitasBucket
 Encapsulation semua field private dan diakses lewat getter/setter Constructor memakai setter supaya validasinya ikut jalan
-Dummy data (2 Dump Truck dan 1 Excavator), jadi menu "Tampilkan" langsung menampilkan data
+Dummy data (2 Dump Truck dan 1 Excavator) menu "Tampilkan" langsung menampilkan data
