@@ -1,6 +1,6 @@
 public abstract class KendaraanTambang {
  
-    private String id
+    private String id;
     private String namaKendaraan;
     private double hargaSewaPerHari;
  
