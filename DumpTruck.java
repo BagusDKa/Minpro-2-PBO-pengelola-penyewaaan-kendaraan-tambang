@@ -25,6 +25,6 @@ public class DumpTruck extends KendaraanTambang {
  
     @Override
     protected String getDetail() {
-        return String.format("Kapasitas %.1f ton", kapasitasTon);
+        return String.format("Kapasitas %.1f ton", kapasitasTon)
     }
 }
