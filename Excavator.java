@@ -1,6 +1,6 @@
 public class Excavator extends KendaraanTambang {
  
-    private double kapasitasBucket
+    private double kapasitasBucket;
  
     public Excavator(String id, String namaKendaraan, double hargaSewaPerHari, double kapasitasBucket) {
         super(id, namaKendaraan, hargaSewaPerHari);
